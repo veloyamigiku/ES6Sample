@@ -1,4 +1,4 @@
-// class構文のサンプルです。
+// class讒区枚縺ｮ繧ｵ繝ｳ繝励Ν縺ｧ縺吶�
 class Animal {
   constructor(name, sex) {
     this.name = name;
@@ -6,10 +6,10 @@ class Animal {
   }
   
   toString() {
-    return this.name + 'は' + this.sex + 'です。';
+    return this.name + '縺ｯ' + this.sex + '縺ｧ縺吶�';
   }
   
 }
 
-var ani = new Animal('きら', 'メス');
+var ani = new Animal('縺阪ｉ', '繝｡繧ｹ');
 console.log(ani.toString());
