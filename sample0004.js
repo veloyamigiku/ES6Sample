@@ -5,7 +5,7 @@ class Animal {
     if (value < 0) {
       throw new RangeError('ageは正数で');
     }
-    this._age;
+    this._age = value;
   }
   
   get age() {
