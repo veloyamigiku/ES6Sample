@@ -1,15 +1,15 @@
-// setter/getter‚ğg‚Á‚ÄƒvƒƒpƒeƒB‚ğ’è‹`‚µ‚Ü‚·B
+// setter/getterã‚’ä½¿ã£ã¦ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã‚’å®šç¾©ã—ã¾ã™ã€‚
 class Animal {
   set age(value) {
-    console.log('setter‚ªŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+    console.log('setterãŒå‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
     if (value < 0) {
-      throw new RangeError('age‚Í³”‚Å');
+      throw new RangeError('ageã¯æ­£æ•°ã§');
     }
     this._age;
   }
   
   get age() {
-    console.log('getter‚ªŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+    console.log('getterãŒå‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
     return this._age;
   }
 }

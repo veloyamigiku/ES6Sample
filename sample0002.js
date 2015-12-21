@@ -1,4 +1,4 @@
-// ƒNƒ‰ƒXƒŠƒeƒ‰ƒ‹‚ÅƒNƒ‰ƒX‚ð’è‹`‚µ‚Ü‚·B
+// ã‚¯ãƒ©ã‚¹ãƒªãƒ†ãƒ©ãƒ«ã§ã‚¯ãƒ©ã‚¹ã‚’å®šç¾©ã—ã¾ã™ã€‚
 var Animal = class {
   constructor(name, sex) {
     this.name = name;
@@ -6,9 +6,9 @@ var Animal = class {
   }
   
   toString() {
-    return this.name + '‚Í' + this.sex + '‚Å‚·B';
+    return this.name + 'ã¯' + this.sex + 'ã§ã™ã€‚';
   }
 }
 
-var ani = new Animal('‚«‚ç', 'ƒƒX');
+var ani = new Animal('ãã‚‰', 'ãƒ¡ã‚¹');
 console.log(ani.toString());

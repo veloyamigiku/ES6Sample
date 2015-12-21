@@ -1,4 +1,4 @@
-// 静的メソッドを定義します。
+// 髱咏噪繝｡繧ｽ繝�繝峨ｒ螳夂ｾｩ縺励∪縺吶�
 class Figure {
   static triangle(base, height) {
     return base * height / 2;
